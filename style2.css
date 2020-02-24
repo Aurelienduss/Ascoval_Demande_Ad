@@ -1,0 +1,64 @@
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+body {
+   background-image: #166AB4 /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #3d74c8, #3c6cb4, #3c649f, #3c5c8c, #3c5478);
+  background: -moz-linear-gradient(to bottom, #3d74c8, #3c6cb4, #3c649f, #3c5c8c, #3c5478);
+  background: -o-linear-gradient(to bottom, #3d74c8, #3c6cb4, #3c649f, #3c5c8c, #3c5478);
+  background: linear-gradient(to bottom, #3d74c8, #3c6cb4, #3c649f, #3c5c8c, #3c5478);
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+
+
+
+.login-page {
+  
+  padding: 10% 0 0;
+  margin: auto;
+}
+
+.tbl-content
+{
+  font-size: 20px;
+  color:black;
+  height:250px;
+  width:450px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  text-align:center;
+  -webkit-box-shadow: 0px 10px 17px 0px #000000;
+  box-shadow: 0px 10px 17px 0px #000000;
+  background-color: white;
+}
+
+
+.dropdown 
+{
+  font-family: "Roboto", sans-serif;
+  color:black;
+ 
+  font-size: 20px;
+ background:white;
+}
+
+
+
+button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+   background-image: linear-gradient(to bottom, #3d74c8, #3c6cb4, #3c649f, #3c5c8c, #3c5478);
+  width: 30%;
+  border: 2px;
+  border-color:black;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}

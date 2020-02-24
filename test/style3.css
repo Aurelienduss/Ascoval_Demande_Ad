@@ -1,0 +1,30 @@
+.wrapper {
+  width: 900px;
+  max-width: 100%;
+  margin: auto;
+}
+
+form.multi-form {
+  padding: 20px;
+  
+  fieldset:not(.active) {
+    display: none;
+  }
+  
+  fieldset.active:first-of-type ~ .buttons {
+    .prev,
+    .submit {
+      display: none;
+    }
+  }
+  fieldset.active:not(:last-of-type) ~ .buttons {
+    .submit {
+      display: none;
+    }
+  }
+  fieldset.active:last-of-type ~ .buttons {
+    .next {
+      display: none;
+    }
+  }
+}

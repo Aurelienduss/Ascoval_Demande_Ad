@@ -1,0 +1,213 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-page {
+  width:100%;
+  padding: 8% 0 0;
+   margin: auto;
+}
+.login-page2 {
+  position:fixed;
+ 
+  background: black;
+  margin-left: 32%;
+  margin-top:150px;
+  color:white;
+  height:50px; 
+  width:450px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.form {
+  position: fixed;
+
+  background: #FFFFFF;
+  max-width: 360px;
+  margin-top:90px;
+  margin-left: 32%;
+  padding: 45px;
+  height:200px;
+  width:400px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+
+  background: #f2f2f2;
+  width: 90%;
+
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #4CAF50;
+  width: 90%;
+  border: 0;
+  padding: 15px;
+  color:white;
+ background-image: linear-gradient(to bottom, #3d74c8, #3c6cb4, #3c649f, #3c5c8c, #3c5478);
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+
+body {
+ 
+ background-image: linear-gradient(to bottom, #3d74c8, #3c6cb4, #3c649f, #3c5c8c, #3c5478);
+  font-family: "Roboto", sans-serif;
+     background-repeat: no-repeat ;
+}
+
+
+div.table-title {
+   display: block;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+}
+
+.table-title h3 {
+
+   color: #fafafa;
+   font-size: 30px;
+   font-weight: 400;
+   font-style:normal;
+   font-family: "Roboto", helvetica, arial, sans-serif;
+   text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+   text-transform:uppercase;
+}
+
+
+/*** Tableau admin **/
+
+.table-fill {
+text-align:center;
+  background: white;
+  border-radius:3px;
+  border-collapse: collapse;
+  height: 320px;
+  margin: auto;
+  max-width: 600px;
+  padding:5px;
+  width: 100%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  animation: float 5s infinite;
+
+}
+ 
+th {
+  color:#D5DDE5;;
+  background:#1b1e24;
+  border-bottom:4px solid #9ea7af;
+  border-right: 1px solid #343a45;
+  font-size:23px;
+  font-weight: 100;
+  padding:24px;
+  text-align:left;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  vertical-align:middle;
+}
+
+th:first-child {
+  border-top-left-radius:3px;
+}
+ 
+th:last-child {
+  border-top-right-radius:3px;
+  border-right:none;
+}
+  
+tr {
+  border-top: 1px solid #C1C3D1;
+  border-bottom-: 1px solid #C1C3D1;
+  color:#666B85;
+  font-size:16px;
+  font-weight:normal;
+  text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+ 
+tr:hover td {
+  background:#4E5066;
+  color:#FFFFFF;
+  border-top: 1px solid #22262e;
+}
+ 
+
+ 
+tr:nth-child(odd) td {
+  background:#EBEBEB;
+}
+ 
+tr:nth-child(odd):hover td {
+  background:#4E5066;
+}
+
+
+ 
+td {
+  background:#FFFFFF;
+  padding:20px;
+  text-align:left;
+  vertical-align:middle;
+  font-weight:300;
+  font-size:18px;
+  text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+  border-right: 1px solid #C1C3D1;
+}
+
+
+
+
+
+
+/* Start menu */
+.nav .menu {
+  float: right;
+  background: #CECECE;
+background: #FFFFFF;
+background: -moz-linear-gradient(45deg, #FFFFFF 0%, #E6E6E6 100%, #E9E9E9 100%);
+background: -webkit-linear-gradient(45deg, #FFFFFF 0%, #E6E6E6 100%, #E9E9E9 100%);
+background: linear-gradient(45deg, #FFFFFF 0%, #E6E6E6 100%, #E9E9E9 100%);
+  width:105%;
+  margin-top:-10px;
+  margin-right:-8px;
+-webkit-box-shadow: 3px -4px 17px 6px rgba(0,0,0,0.48); 
+box-shadow: 3px -4px 17px 6px rgba(0,0,0,0.48);
+}
+.nav .menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.nav .list {
+  float: left;
+  margin: 0;
+}
+.nav .list > li {
+  float: left;
+  list-style: none;
+}
+.nav .list > li > a {
+  color: #555;
+  text-decoration: none;
+  display: block;
+  line-height: 60px;
+  padding: 0 20px;
+}
+.nav .list > li > a:hover,
+.nav .list > li.active > a {
+  color: #333
+}
+
+
+
+
